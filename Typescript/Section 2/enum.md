@@ -15,4 +15,4 @@ enum Direction {
 그 지점부터 뒤 따르는 멤버들은 auto-increament 값을 얻음.
 
 ## 참고자료
-[# Enums]([https://www.typescriptlang.org/ko/docs/handbook/enums.html](https://www.typescriptlang.org/ko/docs/handbook/enums.html))
+[# Enums](https://www.typescriptlang.org/ko/docs/handbook/enums.html)
