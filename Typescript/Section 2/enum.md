@@ -7,6 +7,7 @@
 ```typescript
 enum Direction {
 	Start = 1, Middle, End
+  
 }
 ```
 
