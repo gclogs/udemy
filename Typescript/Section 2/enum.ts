@@ -1,6 +1,7 @@
 /**
  * https://www.typescriptlang.org/ko/docs/handbook/enums.html
  * Enum은 모든 상수 변수들을 정의하고 관리하는 것을 보완하는 대안 방안임.
+ * 또한, 단순화할 수 있다는 점에서 유용함.
  */
 
 enum Role {
