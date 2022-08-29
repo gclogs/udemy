@@ -3,7 +3,12 @@
   "CompileOptions": {
     "target": "es6", // 37. 어떤 자바스크립트 버전으로 컴파일을 할 것인지 알려줌.
     "module": "commonjs",
-    "lib": [] // 
+    "lib": [
+      "dom",
+      "es6",
+      "dom.iterable",
+      "scripthost"
+    ] // 38.  dom API를 타입스크립트에서 사용할 수 있게 한다. 필자가 작성한 설정들은 "es6" 버전에 있는 기본 설정들임. 참고바람
 
     // something code..
   },
