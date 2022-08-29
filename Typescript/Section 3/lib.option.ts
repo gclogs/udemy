@@ -1,5 +1,12 @@
 // tsconfig > CompileOptions > lib: []
 
+
+/**
+ * [Tip] 개발자가 button 요소가 있다고 알고 있는 가정하에, 
+ * ; 앞에 붙은 ! 는 개발자에게 button이 존재하거나 null이 아닌 값을 반환한다는 걸 알 수 있게 해주는 역할임
+ * 
+ * 그게 아니라면 if문으로 문제가 있을지도 모르는 코드를 검사하는 게 좋다.
+ */
 const button = document.querySelector('button')!;
 
 /**
@@ -15,3 +22,9 @@ const button = document.querySelector('button')!;
 button.addEventListener('click', () => {
   console.log('Clicked!')
 })
+
+if (button) { // null check
+  button.addEventListener('click', () => {
+    console.log('Clicked!');
+  })
+}
