@@ -1,14 +1,15 @@
 class DepartmentA {
+  // private readonly id: string;
   // private name: string;
-  // private id: string;
   private employees: string[] = [];
 
-  constructor(private id: string, private name: string) {
+  constructor(private readonly id: string, private name: string) {
     // this.name = name;
     // this.id = id;
   }
 
   describe(this: DepartmentA) {
+    // this.id = 'd3'
     console.log(`Department : (${this.id}) ${this.name}`)
   }
 
