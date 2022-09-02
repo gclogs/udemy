@@ -9,3 +9,7 @@
 마크다운은 vscode에서 작성하기 보다는 **obsidian**을 활용하여 작성하고 있습니다.
 
 기회가 된다면 vim으로도 개발을 해봐야겠구만...
+
+
+# 참고자료
+1. [TypeScript 가이드북](https://yamoo9.gitbook.io/typescript/)
