@@ -8,4 +8,6 @@
 
 3. [인덱스 시그니처 속성](https://yamoo9.gitbook.io/typescript/interface/index-signature)
 
-4. [[📖] 핸드북 : 타입스크립트 고급타입](https://typescript-kr.github.io/pages/advanced-types.html)
+4. [타입 앨리어스](https://poiemaweb.com/typescript-alias)
+
+5. [[📖] 핸드북 : 타입스크립트 고급타입](https://typescript-kr.github.io/pages/advanced-types.html)
