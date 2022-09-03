@@ -7,6 +7,8 @@
 
 3. [유틸리티 타입 - Partial, Required, Pick 사용하기](https://merrily-code.tistory.com/164)
 
+4. [[TypeScript] 타입스크립트 제네릭(Generic), Factory Pattern with Generics](https://lakelouise.tistory.com/188)
+
 ## Reference
 
 > [타입스크립트를 사용하는 이유](https://realmojo.tistory.com/466)
