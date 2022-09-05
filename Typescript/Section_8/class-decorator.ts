@@ -13,16 +13,17 @@
 
  
 function Logger(logString: string) {
-  console.log("LOGGER FACTORY") // 1번째 실행
-  return function(constructor: Function) { // 4번째 실행
+  console.log("LOGGER FACTORY")
+  return function(constructor: Function) {
     console.log(logString);
     console.log(constructor);
   }
 }
 
 function WithTemplate(template: string, hookId: string) {
-  console.log("TEMPLATE FACTORY") // 2번째 실행
-  return function<T extends { new (...args: any[]): {name: string} }>(originalConstructor: T) { // 3번째 실행
+  console.log("TEMPLATE FACTORY")
+  // 도대체 어떻게 하면 제약조건을 기괴한 방법으로 주지...?? 익명 함수라는 건 알겠다만...
+  return function<T extends { new (...args: any[]): {name: string} }>(originalConstructor: T) {
     return class extends originalConstructor {
       constructor(..._: any[]) { // _ 매개변수를 사용하여 '나 이거 갖고 있어!' 라고 알려줄 수 있음.
         super();
