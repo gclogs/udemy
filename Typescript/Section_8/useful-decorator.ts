@@ -40,7 +40,7 @@ class PersonC {
   }
 }
 
-const persC = new PersonB();
+const persC = new PersonC();
 
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 //               CASE 109. 속성 데코레이터에 대해 알아보기
