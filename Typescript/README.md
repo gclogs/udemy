@@ -7,7 +7,7 @@
 [Understanding TypeScript - 2022 Edition](https://www.udemy.com/course/understanding-typescript/#questions/8835948)
 
 > 한글 강의
-[한글자막】 Typescript :기초부터 실전형 프로젝트까지 with React + NodeJS](https://www.udemy.com/course/best-typescript-21/)
+[【한글자막】 Typescript :기초부터 실전형 프로젝트까지 with React + NodeJS](https://www.udemy.com/course/best-typescript-21/)
 
 - 한글 강의 후기는 대체적으로 괜찮은데 영문 강의 후기는 박살이 나있다.
   - 대부분 `강사의 억양 문제`, `입문자 진입장벽이 큼`, `쉬운 내용도 어렵게 설명함`, `이 강의는 쓰레기야!` 등과 같은 복합적인 의견들이 난무해있다.
