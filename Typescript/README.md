@@ -1,7 +1,7 @@
 # 【한글자막】 Typescript :기초부터 실전형 프로젝트까지 with React + NodeJS
 
-## 리뷰 (★★★☆☆)
-## 2022-08-28 ~ 2022-09
+## 💛 리뷰 (★★★☆☆)
+## 👨‍🎓 2022-08-28 ~ 2022-09
 
 > 영문 강의
 [Understanding TypeScript - 2022 Edition](https://www.udemy.com/course/understanding-typescript/#questions/8835948)
