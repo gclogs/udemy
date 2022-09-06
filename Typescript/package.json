@@ -4,7 +4,7 @@
   },
   "name": "typescript",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
