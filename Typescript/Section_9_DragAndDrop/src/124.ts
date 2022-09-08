@@ -8,12 +8,12 @@
  * 
  * 뭐 autobind에 대한 package도 있으니 그걸 사용하던지
  * 우리에겐 stackoverflow가 있지 않은가 ! copy & paste!
- * @param target 
- * @param propName 
+ * @param _target 
+ * @param _propName 
  * @param descriptior 
  * @returns 
  */
-function AutoBind(target: string, propName: string, descriptior: PropertyDescriptor) {
+function AutoBind(_target: string, _propName: string, descriptior: PropertyDescriptor) {
   const originalMethod = descriptior.value;
   const adjDescriptor: PropertyDescriptor = {
     configurable: true,
