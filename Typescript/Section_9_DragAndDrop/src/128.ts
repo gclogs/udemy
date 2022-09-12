@@ -211,6 +211,10 @@ class ProjectInput128 {
     }
   }
 
+  /**
+   * #128
+   * Input 요소의 내용을 초기화
+   */
   private clearInput() {
     this.titleInputElement.value = '';
     this.descriptionInputElement.value = '';
