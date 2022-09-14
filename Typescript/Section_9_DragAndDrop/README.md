@@ -37,3 +37,22 @@
 - 그래서 다른 레퍼런스나 토이 프로젝트를 진행하며 이해하거나 익숙해져야 한다는게... 아쉬움이 많았다.
 
 - 초반부 강의의 퀄리티나 양도 괜찮고 잘 알려주고 이해되는 부분이 있었지만 토이 프로젝트를 시작하면서 난관에 부딪히니 이건 내가 헤쳐나가야... 할거 같다
+
+## 133
+- getter 를 어떻게 쓰는지 보여주는 파트이다.
+- 그리 어렵지 않고 setter와 getter의 정의를 확실히 해주면 좋겠다.
+
+### 133 참고자료
+1. [getter와 setter를 만드는 이유가 뭔가요?](https://www.inflearn.com/questions/183833)
+
+2. [Typescript Class 사용하기 - Yohan's Developer Diary](https://yohanpro.com/posts/typescript/class)
+  - getter와 setter 부분만 봐도 좋다.
+  - 시간이 된다면 훑어보는 것도 괜찮다.
+
+3. [[Java] 객체의 무결성 보호 (Getter, Setter 메소드)](https://veneas.tistory.com/entry/Java-%EA%B0%9D%EC%B2%B4%EC%9D%98-%EB%AC%B4%EA%B2%B0%EC%84%B1-%EB%B3%B4%ED%98%B8-Getter-Setter-%EB%A9%94%EC%86%8C%EB%93%9C)
+  - getter, setter 메서드를 왜 쓰는지, 실무에서 정말 사용하는지 등 실제 경험담과 예시를 보여주고 있다.
+  - 참고하면 좋을 것이다.
+
+4. [setter 쓰지 말라고만 하고 가버리면 어떡해요](https://velog.io/@backfox/setter-%EC%93%B0%EC%A7%80-%EB%A7%90%EB%9D%BC%EA%B3%A0%EB%A7%8C-%ED%95%98%EA%B3%A0-%EA%B0%80%EB%B2%84%EB%A6%AC%EB%A9%B4-%EC%96%B4%EB%96%A1%ED%95%B4%EC%9A%94)
+  - 3의 항목중 setter를 쓰지 말라고 그 내용을 친절하게 알려주지만 방안을 알려주지 않는다.
+  - 이 글을 참고하여 왜 setter를 지양하는지 그리고 세터를 안쓰고 어떤 로직을 작성해야 하는지가 나와있다!
